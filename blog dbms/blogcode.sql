@@ -1,0 +1,1 @@
+select user_password from bloguser where user_email = "email"
