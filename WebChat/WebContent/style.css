@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+h1 {
+	font-size: 3em;
+	padding: 20px;
+	font-family: "noto sans cjk jp black", serif;
+}
+
+h2 {
+	font-size: 2em;
+	padding: 20px;
+	font-family: "noto sans cjk jp black", serif;
+}
+
+h2.menuTitle {
+	font-family: "noto sans cjk jp black", serif;
+	color: #000;
+}
+
+body {
+	color: #000;
+	overflow-x: hidden;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	max-width: 100%;
+	min-width: 600px;
+}
+
+.main {
+	color: #8c8c8c;
+	max-width: 100%;
+	padding: 30px;
+	font-size: 1em;
+	font-family: "noto sans cjk jp black", serif;
+}
+
+nav {
+	max-width: 100%;
+	position: flex;
+	display: flex;
+	font-size: 2em;
+	font-family: "noto sans cjk jp thin", serif;
+}
+
+nav :hover {
+	color: #2DB400;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 3vh;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #c0c0c0;
+}
+
+table {
+	padding: 1px;
+	color: #8c8c8c;
+}
+
+table tr td.message {
+	width: 60%;
+	background: #eee;
+	border-style: none;
+	padding: 5px 10px;
+	border-radius: 20px;
+	margin: 3px;
+	max-width: 600px;
+}
+
+table tr td.messageTime {
+	color: #c0c0c0;
+}
+
+table tr td.messageUser {
+	color: #777;
+}
+
+table.chatInfo {
+	padding: 10px;
+	text-align: left;
+	color: #2DB400;
+	margin: 10px;
+	border: 1px solid gray;
+	font-family: "noto sans cjk jp black", serif;
+	font-size: 0.5em;
+}
+
+table tr th.loginTitle {
+	text-align: center;
+	font-size: 3em;
+	color: #ffffff;
+}
+
+th, td {
+	text-align: left;
+	font-size: 2em;
+}
+
+table tr td.signupButton {
+	text-align: right;
+	color: #ff585d;
+	font-size: 1em;
+}
+
+table tr td.inputButton {
+	text-align: right;
+	font-size: 1em;
+}
+
+table tr td.back {
+	text-align: right;
+	color: #8c8c8c;
+}
+
+table.loginWindow {
+	width: 600px;
+}
+
+table.List {
+	padding: 10px;
+	width: 600px;
+	margin: 10px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	max-width: 100%;
+	font-family: "noto sans cjk jp black", serif;
+	color: #000;
+	font-size: 10px;
+}
+
+table.chatTable {
+	padding: 5px;
+	margin: 10px;
+	width: 700px;
+	overflow: hidden;
+	word-wrap: break-word;
+	word-break: break-all;
+	font-family: "noto sans cjk jp medium", serif;
+	color: #000;
+	font-size: 10px;
+	table-layout: fixed;
+}
+
+div.chatWindow {
+	width: 100%;
+	height: 800px;
+	overflow: auto;
+	color: #8c8c8c;
+	border: 1px solid black;
+	font-family: "noto sans cjk jp light", serif;
+	font-size: 15px;
+}
+
+table tr td.deleteSubmit {
+	border-style: none;
+	padding: 0.5em 1em;
+	color: #000;
+	background: #fff;
+	border-radius: 20px;
+	font-size: 20px;
+	font-family: "noto sans cjk jp black", serif;
+}
+
+#negativeSubmit {
+	border-style: none;
+	padding: 0.5em 1em;
+	color: #000;
+	background: #fff;
+	border: 2px solid #f00;
+	border-radius: 10px;
+	font-size: 20px;
+	font-family: "noto sans cjk jp black", serif;
+	margin: 5px;
+}
+
+input[type="submit"] {
+	border-style: none;
+	padding: 0.5em 1em;
+	color: #fff;
+	background: #2DB400;
+	border-radius: 20px;
+	font-size: 20px;
+	font-family: "noto sans cjk jp black", serif;
+	margin: 5px;
+}
+
+.input {
+	width: 100%;
+	text-align: left;
+	position: right;
+	font-size: 1em;
+	padding: 5px;
+	font-family: "noto sans cjk jp light", serif;
+}
+
+.inputText {
+	width: 600px;
+	font-size: 1em;
+	padding: 5px;
+	font-family: "noto sans cjk jp light", serif;
+	text-align: left;
+}
+
+p.subtitle {
+	width: 600px;
+	padding: 20px;
+	font-size: 2em;
+	text-align: center;
+	font-family: "noto sans cjk jp thin", serif;
+}
+
+a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #8c8c8c;
+	padding: 5px;
+	width: 100%;
+}
+
+a :hover {
+	color: #2DB400;
+}
