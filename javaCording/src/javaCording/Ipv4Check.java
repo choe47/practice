@@ -31,28 +31,15 @@ public class Ipv4Check {
 	 */
 	public static boolean isIPAddress (String ipAdress) {
 		String[] splitedAdress = ipAdress.split(".");
-
-		if (splitedAdress.length != 4)
+		if (splitedAdress.length != 4) {
 			return false;
-
+		}
 		for(int i = 0; i < splitedAdress.length; ++i) {
 			if (Integer.parseInt(splitedAdress[i]) < 0 || Integer.parseInt(splitedAdress[i]) > 255) {
 				return false;
 			}
 		}
 		return true;
-		/*
-		int[] intAdress = new int[splitedAdress.length];
-		if(intAdress.length != 4){
-			return ipAdress+",false";
-		}
 
-		for (int i = 0; i<intAdress.length; i++) {
-			if (intAdress[i] < 0 || intAdress[i] > 255) {
-				return ipAdress+",false";
-			}
-		}
-		return ipAdress+",true";
-		*/
 	}
 }
